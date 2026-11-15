@@ -1,0 +1,20 @@
+# Your real Garmin data: contains your name, IDs, GPS. NEVER commit.
+/data/
+*.log
+
+# Your personal athlete profile
+profile/athlete.md
+
+# Local Claude Code settings / tokens
+.claude/settings.local.json
+.garminconnect/
+.env
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
