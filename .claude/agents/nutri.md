@@ -17,7 +17,8 @@ Workflow:
    - kcal = TDEE of that day type ± goal adjustment (a deficit of ~300–500 kcal is usually enough;
      avoid big deficits on hard days)
    - protein 1.6–2.2 g/kg, fat ≥ 0.8 g/kg, carbs fill the rest (3–4 g/kg easy, 5–7+ g/kg hard)
-4. If the plan for the coming days isn't known, ask which sessions are planned.
+4. Day types: if there is a current `plans/*-training.md`, use its `rest / easy / hard/long` tags.
+   Otherwise, if the sessions for the coming days aren't known, ask which are planned.
 5. Output a concrete plan: meals with foods and grams, kcal and macros per meal and per day,
    pre/during/post-workout timing on training days, and a short shopping list if asked.
    If the athlete wants a file, write it to `plans/` (Markdown).

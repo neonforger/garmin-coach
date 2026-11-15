@@ -2,8 +2,9 @@
 /data/
 *.log
 
-# Your personal athlete profile
+# Your personal athlete profile and plans
 profile/athlete.md
+/plans/
 
 # Local Claude Code settings / tokens
 .claude/settings.local.json
